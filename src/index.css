@@ -1,0 +1,117 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+
+.text-shine {
+
+  color: #ffffff;
+  background: linear-gradient(to right,#dad8d8 10%, #FFFFFF 0,  #dad8d8 50%);
+ background-position: 0;
+  background-clip: text;               
+  -webkit-background-clip: text; 
+  -webkit-text-fill-color: transparent;
+  animation: shine 5s infinite linear;
+  animation-fill-mode: forwards;
+  -webkit-text-size-adjust: none;
+  background-size: 200% auto;
+  font-size: 40px;
+  text-decoration: none;
+  white-space: nowrap;
+  
+  
+}
+
+.text-shine-purple {
+
+  color: #ffffff;
+  background: linear-gradient(to right, #FFFFFF 0,#6843EC 20%, #fff );
+ background-position: 0;
+  background-clip: text;               
+  -webkit-background-clip: text; 
+  -webkit-text-fill-color: transparent;
+  animation: shine 5s infinite linear;
+  animation-fill-mode: forwards;
+  -webkit-text-size-adjust: none;
+  background-size: 200% auto;
+  font-size: 40px;
+  text-decoration: none;
+  white-space: nowrap; 
+   display: inline-block;
+}
+@media (min-width: 768px) {
+  .text-shine,
+  .text-shine-purple {
+    font-size: 70px; 
+  }
+}
+
+@media (min-width: 1024px) {
+  .text-shine,
+  .text-shine-purple {
+    font-size: 85px; 
+  }
+}
+
+@media (min-width: 1280px) {
+  .text-shine,
+  .text-shine-purple {
+    font-size: 90px; 
+  }
+}
+
+@media (min-width: 1536px) {
+  .text-shine,
+  .text-shine-purple {
+    font-size: 90px; 
+  }
+}
+
+@-moz-keyframes shine {
+  0% {
+    background-position: 0;
+  }
+  60% {
+    background-position: 180px;
+  }
+  100% {
+    background-position: 180px;
+  }
+}
+@-webkit-keyframes shine {
+  0% {
+    background-position: 0;
+  }
+  60% {
+    background-position: 180px;
+  }
+  100% {
+    background-position: 180px;
+  }
+}
+@-o-keyframes shine {
+  0% {
+    background-position: 0;
+  }
+  60% {
+    background-position: 180px;
+  }
+  100% {
+    background-position: 180px;
+  }
+}
+
+
+@keyframes shine {
+  0% {
+    background-position: 200% 0;
+  }
+  100% {
+    background-position: -200% 0;
+  }
+}
+
+
