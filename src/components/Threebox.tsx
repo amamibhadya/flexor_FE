@@ -113,8 +113,7 @@
 //   );
 // };
 
-// export default UtilityBox;
-// components/UtilityBox.tsx
+
 import React from "react";
 import Ecocard from "./Cards/Ecocard";
 
