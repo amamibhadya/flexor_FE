@@ -170,21 +170,7 @@ const Navbar: React.FC<NavbarProps> = ({ sectionRefs }) => {
           </div>
         </div>
       </div>
-      {/* <div className="flex justify-center text-center font-darkgrotesque font-bold">
-        <span className=" text-white px-2 text-center  leading-none text-[40px] sm:text-[50px] md:px-3 md:text-[70px] lg:px-4 lg:text-[85px] xl:px-4 xl:text-[90px] 2xl:px-4 2xl:text-[90px]">
-          The Token That <br />
-          Powers Your Digital <br/>{" "}
-          <span className="inline-block bg-gradient-to-t from-custom-purple1 to-custom-white1 bg-clip-text text-transparent">
-            {" "}
-            World
-          </span>{" "}
-        
-        </span>
-      </div> */}
-      {/* <div className="flex justify-center items-center font-darkgrotesque px-3  text-white  ">
-        <p className="md:px-3 lg:px-3 xl:px-3 2xl:px-3 md:text-[14px] xl:text-[18px] sm:block hidden">Built for speed, transparency, and real-world utility. Unlock exclusive access, features, and benefits across our ecosystem with $Toko.</p>
-        <p className="px-3 text-[16px] block sm:hidden">Built for speed, transparency, and real-world <br/> utility. Unlock exclusive access, features, and <br/> benefits across our ecosystem with $Toko.</p>
-      </div> */}
+      
     </nav>
   );
 };
